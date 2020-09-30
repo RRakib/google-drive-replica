@@ -20,5 +20,4 @@ document.addEventListener("click", function(e){
     if(e.target !== rightOptions) {
         rightOptions.style.display = 'none'
     }
-
 });
