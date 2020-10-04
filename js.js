@@ -21,7 +21,8 @@ right.addEventListener("contextmenu", function(e){
 
 
 document.addEventListener("click", function(e){
-    if(e.target !== rightOptions) {
+    console.log(e.target.getAttribute("data-id"))
+    if(e.target.getAttribute("data-id") !== "right-click-options") {
         rightOptions.style.display = 'none'
     }
 });
