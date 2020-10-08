@@ -11,10 +11,10 @@ html, body{
 }
 
 #right-click-options{
-    width: 300px;
+    width: 320px;
     height: 360px;
     display: none;
-    padding: 20px;
+    padding: 5px;
     color: #444;
     position: fixed;
     border-radius: 7px;
@@ -53,5 +53,14 @@ nav{
 }
 
 .main-container .left{
+    background-color: #eee;
+}
+
+.right-options{
+    margin: 0;
+    padding: 10px  5px;
+}
+
+.right-options:hover{
     background-color: #eee;
 }
